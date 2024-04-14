@@ -9,6 +9,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: #333;
@@ -34,9 +37,20 @@
             color: #fff;
             text-align: center;
             padding: 20px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        main h2 {
+            margin-top: 20px;
+        }
+        main p {
+            text-align: center;
         }
     </style>
 </head>
@@ -59,7 +73,7 @@
         <h2>Portfolio</h2>
         <p>Github: https://github.com/SmandinPY 
             YouTube: https://www.youtube.com/channel/UC7Z35behgajjr4-PBlkFCXw 
-            Twitch (dont expect streams):https://www.twitch.tv/smandinpy .</p>
+            Twitch (don't expect anything from here):https://www.twitch.tv/smandinpy .</p>
     </main>
     <footer>
         <p>&copy; 2024 Smandin. All rights reserved.</p>
